@@ -1,12 +1,81 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>HTML Tutorial</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Elements Example</title>
+    <style>
+        .container {
+            margin: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+        }
+        .highlight {
+            color: blue;
+            font-weight: bold;
+        }
+    </style>
 </head>
 <body>
 
-<h1>This is a heading</h1>
-<p>This is a paragraph.</p>
+    <div class="container">
+        <h1>HTML Elements Demonstration</h1>
+
+        <!-- List -->
+        <h2>My Favorite Fruits</h2>
+        <ul>
+            <li>Apple</li>
+            <li>Banana</li>
+            <li>Cherry</li>
+        </ul>
+
+        <!-- Anchor -->
+        <h2>Learn More</h2>
+        <a href="https://www.example.com" target="_blank">Visit Example.com</a>
+
+        <!-- Image -->
+        <h2>Sample Image</h2>
+        <img src="https://via.placeholder.com/150" alt="Placeholder Image">
+
+        <!-- Table -->
+        <h2>Sample Table</h2>
+        <table border="1">
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+            </tr>
+            <tr>
+                <td>Alice</td>
+                <td>30</td>
+            </tr>
+            <tr>
+                <td>Bob</td>
+                <td>25</td>
+            </tr>
+        </table>
+
+        <!-- Form -->
+        <h2>Sample Form</h2>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+
+        <!-- Iframe -->
+        <h2>Embedded Iframe</h2>
+        <iframe src="https://www.example.com" width="300" height="200" title="Example Iframe"></iframe>
+
+        <!-- Div and Span -->
+        <h2>Using Div and Span</h2>
+        <div>
+            This is a <span class="highlight">highlighted text</span> within a div.
+        </div>
+    </div>
 
 </body>
 </html>
