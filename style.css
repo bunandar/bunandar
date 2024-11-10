@@ -7,16 +7,6 @@ html, body {
 }
 
 h1 {
-    font-weight: 700;
-    font-size: 48px;
-    margin: 0 0 16px 0;
-   -webkit-text-stroke: 1px rgb(255, 255, 255);
-         color: rgb(0, 0, 0);
-         text-shadow:
-             3px 3px 0 #ffffff,
-           -1px -1px 0 #ffffff,  
-            1px -1px 0 #ffffff,
-            -1px 1px 0 #ffffff,
-             1px 1px 0 #ffffff;
+    color: rgb(0, 0, 0);
     
 }
