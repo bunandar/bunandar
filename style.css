@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
     padding: 0;
     margin: 0;
     background: no-repeat url("https://storage.googleapis.com/a1aa/image/XVbWyK6fe6uMfpvbxmDjRvtqSodNSahVU5h7VKu5emFvf9MdC.jpg");
@@ -8,35 +9,46 @@ html, body {
 
 h1 {
     color: rgb(255, 255, 255);
-    
+
 }
 
 h2 {
     color: rgb(255, 255, 255);
-    
+
 }
 
 ul {
     color: rgb(255, 255, 255);
-    
+
 }
 
 th {
     color: rgb(255, 255, 255);
-    
+
 }
 
 td {
     color: rgb(255, 255, 255);
-    
+
 }
 
 div {
     color: rgb(255, 255, 255);
-    
+
 }
 
 li {
     color: rgb(255, 255, 255);
+
+}
+
+#dummy  {
+    position: fixed;
+    top: 100px;
+    width: 100px;
+    right: 100px;
+    text-align: center;
+    font-size: 18px;
+    background-color: rgba(207, 196, 196, 0);
     
 }
